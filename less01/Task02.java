@@ -5,11 +5,11 @@ public class Task02 {
         int x = 10;
         int y = 30;
 
-        int result = SumTwoNumbers(x, y);
+        int result = sumTwoNumbers(x, y);
         System.out.println(x + " + " + y + " = " + result);
     }
 
-    public static int SumTwoNumbers(int x, int y) {
+    public static int sumTwoNumbers(int x, int y) {
         return x + y;
     }
 }
