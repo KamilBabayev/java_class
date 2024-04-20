@@ -3,7 +3,6 @@ package less02;
 import java.util.Scanner;
 import java.lang.Math;
 
-
 public class Task07 {
     public static void main(String[] args) {
         System.out.println("welcome");
@@ -34,8 +33,6 @@ public class Task07 {
             }
 
             default -> System.out.println("did not understand you, please choose figures from message");
-
         }
-
     }
 }

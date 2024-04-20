@@ -18,8 +18,6 @@ public class Task05 {
             case 7 -> System.out.println("SUNDAY");
             default -> System.out.println("enter number in 1 and 7 range");
         }
-
-
     }
 }
 

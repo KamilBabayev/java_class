@@ -14,7 +14,6 @@ public class Task06 {
         } else {
             System.out.println(num1 + " and " + num2 + " are different");
         }
-
     }
 }
 
