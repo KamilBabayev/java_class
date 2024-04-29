@@ -6,7 +6,7 @@ public class Task06 {
     public static void main(String[] args) {
         menu();
     }
-    
+
     public static int add(int a, int b) {
         return a + b;
     }
