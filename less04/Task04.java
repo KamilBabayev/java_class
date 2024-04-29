@@ -7,10 +7,10 @@ public class Task04 {
         String[] vovels = {"a", "e", "i", "o", "u"};
         String message = "( FE: Salam, Necesen ? ) --> 5";
 
-        System.out.println(GetVovels(message, vovels));
+        System.out.println(getVovels(message, vovels));
     }
 
-    public static String GetVovels(String text, String[] vovels) {
+    public static String getVovels(String text, String[] vovels) {
         int vovelsCount = 0;
         for (int i = 0; i < vovels.length; i++) {
             if (text.contains(vovels[i])) {
