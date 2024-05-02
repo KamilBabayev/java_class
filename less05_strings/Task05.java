@@ -5,13 +5,14 @@ package less05_strings;
 public class Task05 {
     public static void main(String[] args) {
         char[] arr_num = new char[] { '1', '2', '3', '4' };
+        int startIndex = 1;
+        int endIndex = 3;
 
-        String pageCount = String.copyValueOf(arr_num, 1, 3);
-        System.out.println(getStringFromCharArr(arr_num));
+        System.out.println(getStringFromCharArr(arr_num, startIndex, endIndex));
     }
 
-    public static String getStringFromCharArr(char[] char_arr) {
-        String pageCount = String.copyValueOf(char_arr, 1, 3);
+    public static String getStringFromCharArr(char[] char_arr, int startIndex, int endIndex) {
+        String pageCount = String.copyValueOf(char_arr, startIndex, endIndex);
         return "The book contains " + pageCount +  " pages.";
     }
 }
