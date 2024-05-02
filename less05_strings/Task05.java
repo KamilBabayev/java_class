@@ -4,7 +4,7 @@ package less05_strings;
 // (FE: char[] arr_num = new char[] { '1', '2', '3', '4' } --> The book contains 234 pages)
 public class Task05 {
     public static void main(String[] args) {
-        char[] arr_num = new char[] { '1', '2', '3', '4' };
+        char[] arr_num = new char[]{'1', '2', '3', '4'};
         int startIndex = 1;
         int endIndex = 3;
 
@@ -13,6 +13,6 @@ public class Task05 {
 
     public static String getStringFromCharArr(char[] char_arr, int startIndex, int endIndex) {
         String pageCount = String.copyValueOf(char_arr, startIndex, endIndex);
-        return "The book contains " + pageCount +  " pages.";
+        return "The book contains " + pageCount + " pages.";
     }
 }

@@ -13,7 +13,7 @@ public class Task04 {
     }
 
     public static String isCharsExist(String text, String chars) {
-        boolean result =  text.contains(chars);
+        boolean result = text.contains(chars);
         if (result == true) {
             return text + " contains -> " + chars;
         } else {
